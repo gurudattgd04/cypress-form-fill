@@ -1,0 +1,18 @@
+{
+  "name": "cypress-form-fill",
+  "version": "1.0.0",
+  "main": "src",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "cypress": "10.1.0"
+  },
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test cypress:open",
+    "eject": "react-scripts eject",
+    "cypress:open": "percy exec -- cypress run"
+  }
+}
